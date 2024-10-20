@@ -24,7 +24,7 @@ It is a web-based Company Management System designed to facilitate creating, man
 ## 1. Frontend (React.js)
 The frontend is built using React.js, allowing users to interact with the application through various components like Login, Register, Home, CompanyList, CreateCompany, and EditCompany. The UI supports functionalities such as search, filter, sort, and pagination.
 
-Step-by-Step Principles:
+# Step-by-Step Principles:
 Routing:
 
 The application uses React Router to manage navigation through routes such as /login, /register, /home, /company-list, /create-company, and /edit-company.
@@ -50,10 +50,10 @@ Search, Filter, and Sort:
 A search bar allows users to filter company records based on attributes like name or status.
 Sorting options enable users to organize data by fields like creation date or company name.
 Search results update in real-time, providing immediate feedback.
-2. Backend (Node.js + Express)
+## 2. Backend (Node.js + Express)
 The backend is built using Node.js and Express to handle API requests from the frontend, interacting with the MongoDB database for storing, retrieving, and manipulating company data.
 
-Step-by-Step Principles:
+# Step-by-Step Principles:
 API Routes:
 
 Various routes are set up (e.g., POST /login, POST /register, GET /companies, POST /company, PUT /company/:id, and DELETE /company/:id).
