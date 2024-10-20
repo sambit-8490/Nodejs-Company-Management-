@@ -21,7 +21,7 @@ It is a web-based Company Management System designed to facilitate creating, man
 
 # Step-by-Step Functionality
 
-1. Frontend (React.js)
+## 1. Frontend (React.js)
 The frontend is built using React.js, allowing users to interact with the application through various components like Login, Register, Home, CompanyList, CreateCompany, and EditCompany. The UI supports functionalities such as search, filter, sort, and pagination.
 
 Step-by-Step Principles:
