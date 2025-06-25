@@ -22,7 +22,7 @@ const getNextCompanyId = async () => {
 
 exports.createCompany = async (req, res) => {
     console.log("Company creating.....");
-    console.log("Request Body:"+req.body);
+    console.log("Request Body:", req.body);
     
     try {
         const { companyName, address,created_by, status } = req.body;
